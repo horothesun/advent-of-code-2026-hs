@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    componentsToLoad:
+      - "aoc26:lib"
+      - "aoc26:test:aoc26-test"
+    components:
+      - path: "./src"
+        component: "aoc26:lib"
+
+      - path: "./app/Main.hs"
+        component: "aoc26:exe:aoc2026"
+
+      - path: "./test"
+        component: "aoc26:test:aoc26-test"
